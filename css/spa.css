@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom: 10px;
+}
+ol,ul,dl{
+	list-style-position: inside;
+}
+
+
+body{
+	font:12px ;
+	color:#444;
+	background: #888;
+}
+a{
+	text-decoration:none;
+}
+
+
+#spa{
+	position: absolute;
+	top:8px;
+	left:8px;
+	right:8px;
+	bottom: 8px;
+	min-height: 500px;
+	min-width:500px;
+	background: #fff;
+	border-radius: 0 8px 0 8px;
+}
+
+.spa-x-select{}
